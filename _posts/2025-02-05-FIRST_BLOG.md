@@ -23,6 +23,13 @@ tags:
 ---
 
 ### 2025.02.14
+## 今天的汇编学习 ٩(｡・ω・｡)و：
+主要学了 CMP、BYTE 和一些 JMP 的变体，JMP 的分支指令真的太多了，有点难记，但只要认真看，多敲几遍，应该问题不大。<br>
+时间有点晚了，明天再继续折腾～<br>
+
+<button onclick="toggleContent()">今日的代码之外</button>
+
+<div id="hidden-content" style="display: none; padding: 10px; border: 1px solid #ccc; margin-top: 10px;">
 ## 最近在VMware装了Arch，初体验还不错，但有些小问题。 ( ˘•ω•˘ )
 比起Ubuntu，Arch有点卡顿，可能KDE本身就比较吃资源，WayLand很卡，30fps左右，X11则是45-60左右，但加载有点慢，能接受。<br>
 
@@ -39,10 +46,18 @@ GTX 1650 8GB显存
 ## 弄了个《主播少女重度依赖》的主题 (๑•̀ω•́)ノ
 有种老WINDOWS的美，我挺喜欢的。<br>
 总之，ARCH还挺好用的，KDE PLASMA X11的话，GNOME不确定，没装很久，暂时也不大算。<br>
+</div>
 
-## 今天的汇编学习 ٩(｡・ω・｡)و：
-主要学了 CMP、BYTE 和一些 JMP 的变体，JMP 的分支指令真的太多了，有点难记，但只要认真看，多敲几遍，应该问题不大。<br>
-时间有点晚了，明天再继续折腾～<br>
+<script>
+function toggleContent() {
+    var content = document.getElementById("hidden-content");
+    if (content.style.display === "none") {
+        content.style.display = "block";
+    } else {
+        content.style.display = "none";
+    }
+}
+</script>
 ---
 
 ### 2025.02.23
@@ -58,15 +73,54 @@ GTX 1650 8GB显存
 还挺好看！<br>
 (*´艸`*)<br>
 
+<button onclick="toggleContent()">今日的代码之外</button>
+
+<div id="hidden-content" style="display: none; padding: 10px; border: 1px solid #ccc; margin-top: 10px;">
 ## 有点想买THINKPAD X201
-这个机子真的，好帅！有种老笔记本的帅气，虽然他本来就是2010的机子，不过...反正就是很帅！<br>
+这个机子真的，好帅！虽然他本来就是2010的机子，不过...反正就是很帅！<br>
 找到了个700的i5版本，明天试试和父母问问，看能不能买，如果可以的话我就去问店家那个键盘和屏幕的情况，如果没有大问题我就直接入手了。<br>
 不过我觉得大概是会有问题的，2010的机子嘛，多多少少应该是有问题的，只是希望不要有大问题而已！<br>
+</div>
 
-## 进高一了！
-进高一了，明天好像有计算机课程，我记得今年是JAVA吧，唉～怎么是JAVA呢，我记得那语言是强对象的，我完啦！<br>
-不过说不定也没有很难，如果我理解了对象岂不是能装逼？<br>
-冲冲冲！<br>
-─=≡Σ((( つ•̀ω•́)つ <br>
+<script>
+function toggleContent() {
+    var content = document.getElementById("hidden-content");
+    if (content.style.display === "none") {
+        content.style.display = "block";
+    } else {
+        content.style.display = "none";
+    }
+}
+</script>
 ---
+
+### 2025.03.05
+## 汇编计算器升级了
+升级到了整数计算器，是（A O B = C）的类型，比较简单，最难的部分是写防呆代码。<br>
+
+## 战败遣返C语言了
+在C语言里做了个显式表达式整数计算器，刚刚写好，一开始还有点不习惯，要写“;”。<br>
+
+<button onclick="toggleContent()">今日的代码之外</button>
+
+<div id="hidden-content" style="display: none; padding: 10px; border: 1px solid #ccc; margin-top: 10px;">
+## 买了THINKPAD X220，帅！(๑•̀ㅂ•́)و✧ 
+不买X201了，买X220，反正也是7行键盘，而且才200，不过加上升级的钱就得700左右了。<br>
+( ˘•ω•˘ )
+在上面装了个ARCH LINUX，PLASMA WAYLAND的，基本和之前的虚拟机一致吧，除了虚拟机用X11，X220用WAYLAND以外。<br>
+</div>
+
+<script>
+function toggleContent() {
+    var content = document.getElementById("hidden-content");
+    if (content.style.display === "none") {
+        content.style.display = "block";
+    } else {
+        content.style.display = "none";
+    }
+}
+</script>
+
+
+
 
